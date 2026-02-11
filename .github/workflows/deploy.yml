@@ -10,7 +10,7 @@ env:
   ECR_REPOSITORY: test-1
   ECS_SERVICE: td-test-service
   CONTAINER_NAME: react-cont
-  TASK_DEFINITION: td-test
+  TASK_DEFINITION: test-td
 
 jobs:
   deploy:
